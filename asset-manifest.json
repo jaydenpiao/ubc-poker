@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ubc-poker/static/css/main.5f1cee27.css",
-    "main.js": "/ubc-poker/static/js/main.34fde8ea.js",
+    "main.css": "/ubc-poker/static/css/main.a6245ede.css",
+    "main.js": "/ubc-poker/static/js/main.15fc10d6.js",
     "static/media/logo.png": "/ubc-poker/static/media/logo.b562596bddfc3b4450f0.png",
     "static/media/jamie.jpg": "/ubc-poker/static/media/jamie.23f5d36a66dac515a916.jpg",
     "static/media/david.jpg": "/ubc-poker/static/media/david.593ee681cf0ade7227b9.jpg",
@@ -12,11 +12,11 @@
     "static/media/markus.jpg": "/ubc-poker/static/media/markus.0da4540996910f5dbc11.jpg",
     "static/media/callum.jpg": "/ubc-poker/static/media/callum.feeb1756460952b828d1.jpg",
     "index.html": "/ubc-poker/index.html",
-    "main.5f1cee27.css.map": "/ubc-poker/static/css/main.5f1cee27.css.map",
-    "main.34fde8ea.js.map": "/ubc-poker/static/js/main.34fde8ea.js.map"
+    "main.a6245ede.css.map": "/ubc-poker/static/css/main.a6245ede.css.map",
+    "main.15fc10d6.js.map": "/ubc-poker/static/js/main.15fc10d6.js.map"
   },
   "entrypoints": [
-    "static/css/main.5f1cee27.css",
-    "static/js/main.34fde8ea.js"
+    "static/css/main.a6245ede.css",
+    "static/js/main.15fc10d6.js"
   ]
 }
