@@ -2,8 +2,7 @@ import React, { useState }from 'react'
 import { AiOutlineClose } from 'react-icons/ai'
 import { HiOutlineMenuAlt4 } from 'react-icons/hi'
 import { FaInstagram } from 'react-icons/fa'
-
-
+import { Link } from 'react-scroll';
 
 const Navbar = () => {
     const [nav, setNav] = useState(false)
@@ -19,11 +18,17 @@ const Navbar = () => {
             <h1 onClick={handleNav} className={logo ? 'hidden' : 'block'}>UBC POKER CLUB</h1>
         </div>
         <ul className='hidden md:flex'>
-            <li>Home</li>
-            <li>About</li>
-            <li>Signup</li>
-            <li>Gallery</li>
-            <li>Inquiries</li>
+            <li className='hover:text-gray-300 cursor-pointer'><Link to="home" smooth={true} duration={500}>Home</Link></li>
+            <li className='hover:text-gray-300 cursor-pointer'><Link to="about" smooth={true} duration={500}>About</Link></li>
+            <li className='hover:text-gray-300 cursor-pointer'><Link to="inquiries" smooth={true} duration={500}>Inquiries</Link></li>
+            <li className='hover:text-gray-300 cursor-pointer'><Link to="gallery" smooth={true} duration={500}>Gallery</Link></li>
+
+            <li>
+                <a href="https://www.instagram.com/ubcpokerclub/?hl=en" target="_blank" rel="noopener noreferrer">
+                    <FaInstagram className='icon' />
+                </a>
+            </li>
+            
         </ul>
 
         {/* hamburger */}
@@ -35,14 +40,17 @@ const Navbar = () => {
         <div onClick={handleNav} className={nav ? 'absolute text-black left-0 top-0 w-full bg-gray-100/90 px-4 py-7 flex flex-col' : 'absolute left-[-100%]'}>
             <ul>
                 <h1>UBC POKER CLUB</h1>
-                <li className='border-b'>Home</li>
-                <li className='border-b'>About</li>
-                <li className='border-b'>Signup</li>
-                <li className='border-b'>Gallery</li>
-                <li className='border-b'>Inquiries</li>
-                <div className='flex justify-between my-6'>
-                    <FaInstagram className='icon' />
-                </div>
+                <li className='hover:text-gray-300 cursor-pointer border-b'><Link to="home" smooth={true} duration={500}>Home</Link></li>
+                <li className='hover:text-gray-300 cursor-pointer border-b'><Link to="about" smooth={true} duration={500}>About</Link></li>
+                <li className='hover:text-gray-300 cursor-pointer border-b'><Link to="inquiries" smooth={true} duration={500}>Inquiries</Link></li>
+                <li className='hover:text-gray-300 cursor-pointer border-b'><Link to="gallery" smooth={true} duration={500}>Gallery</Link></li>
+
+                <li>
+                    <a href="https://www.instagram.com/ubcpokerclub/?hl=en" target="_blank" rel="noopener noreferrer">
+                        <FaInstagram className='icon border-b' />
+                    </a>
+                </li>
+                
 
             </ul>
         </div>

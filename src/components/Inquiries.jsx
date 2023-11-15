@@ -62,7 +62,7 @@ const Inquiries = () => {
             className='mb-4 p-2 border border-gray-300 rounded w-[300px] sm:w-[400px] font-[Poppins]'
         >
         </textarea>
-        <button className='mx-auto font-semibold'>Send Email</button>
+        <button className='mx-auto font-semibold hover:from-[var(--primary-light)] hover:to-[var(--primary-dark)] transition duration-300'>Send Email</button>
     </form>
     </div>
   )
