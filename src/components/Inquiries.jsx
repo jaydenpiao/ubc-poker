@@ -59,7 +59,7 @@ const Inquiries = () => {
             placeholder="Enter text..."
             value={message}
             onChange={(e) => setMessage(e.target.value)}
-            className='mb-4 p-2 border border-gray-300 rounded w-[300px] sm:w-[400px] font-[Poppins]'
+            className='mb-4 p-2 border border-gray-300 rounded w-full sm:w-[500px] md:w-[600px] lg:w-[700px] h-[200px] sm:h-[250px] font-[Poppins]'
         >
         </textarea>
         <button className='mx-auto font-semibold hover:from-[var(--primary-light)] hover:to-[var(--primary-dark)] transition duration-300'>Send Email</button>
