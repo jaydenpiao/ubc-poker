@@ -3,6 +3,7 @@ import Navbar from './components/Navbar';
 import Hero from "./components/Hero";
 import About from "./components/About";
 import Inquiries from "./components/Inquiries";
+import Gallery from "./components/Gallery";
 
 
 
@@ -13,6 +14,8 @@ function App() {
       <Hero />
       <About />
       <Inquiries />
+      <Gallery />
+
     </div>
     
   );
