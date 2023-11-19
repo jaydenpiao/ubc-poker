@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/ubc-poker/static/css/main.a6245ede.css",
-    "main.js": "/ubc-poker/static/js/main.15fc10d6.js",
-    "static/media/logo.png": "/ubc-poker/static/media/logo.b562596bddfc3b4450f0.png",
-    "static/media/jamie.jpg": "/ubc-poker/static/media/jamie.23f5d36a66dac515a916.jpg",
-    "static/media/david.jpg": "/ubc-poker/static/media/david.593ee681cf0ade7227b9.jpg",
-    "static/media/finaltable.jpg": "/ubc-poker/static/media/finaltable.3013004f8e22528b9d62.jpg",
-    "static/media/moretables.jpg": "/ubc-poker/static/media/moretables.7a857733749187ba7101.jpg",
-    "static/media/tables.jpg": "/ubc-poker/static/media/tables.2ff7694d15c088ded8fa.jpg",
-    "static/media/cam.jpg": "/ubc-poker/static/media/cam.4a2b99522f7b9ea2c762.jpg",
-    "static/media/markus.jpg": "/ubc-poker/static/media/markus.0da4540996910f5dbc11.jpg",
-    "static/media/callum.jpg": "/ubc-poker/static/media/callum.feeb1756460952b828d1.jpg",
-    "index.html": "/ubc-poker/index.html",
-    "main.a6245ede.css.map": "/ubc-poker/static/css/main.a6245ede.css.map",
-    "main.15fc10d6.js.map": "/ubc-poker/static/js/main.15fc10d6.js.map"
+    "main.css": "/static/css/main.a6245ede.css",
+    "main.js": "/static/js/main.83c16302.js",
+    "static/media/logo.png": "/static/media/logo.b562596bddfc3b4450f0.png",
+    "static/media/jamie.jpg": "/static/media/jamie.23f5d36a66dac515a916.jpg",
+    "static/media/david.jpg": "/static/media/david.593ee681cf0ade7227b9.jpg",
+    "static/media/finaltable.jpg": "/static/media/finaltable.3013004f8e22528b9d62.jpg",
+    "static/media/moretables.jpg": "/static/media/moretables.7a857733749187ba7101.jpg",
+    "static/media/tables.jpg": "/static/media/tables.2ff7694d15c088ded8fa.jpg",
+    "static/media/cam.jpg": "/static/media/cam.4a2b99522f7b9ea2c762.jpg",
+    "static/media/markus.jpg": "/static/media/markus.0da4540996910f5dbc11.jpg",
+    "static/media/callum.jpg": "/static/media/callum.feeb1756460952b828d1.jpg",
+    "index.html": "/index.html",
+    "main.a6245ede.css.map": "/static/css/main.a6245ede.css.map",
+    "main.83c16302.js.map": "/static/js/main.83c16302.js.map"
   },
   "entrypoints": [
     "static/css/main.a6245ede.css",
-    "static/js/main.15fc10d6.js"
+    "static/js/main.83c16302.js"
   ]
 }
