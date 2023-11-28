@@ -3,6 +3,7 @@ import { AiOutlineClose } from 'react-icons/ai'
 import { HiOutlineMenuAlt4 } from 'react-icons/hi'
 import { FaInstagram } from 'react-icons/fa'
 import { Link } from 'react-scroll';
+import wpt from '../assets/wpt.jpeg';
 
 const Navbar = () => {
     const [nav, setNav] = useState(false)
@@ -23,11 +24,20 @@ const Navbar = () => {
             <li className='hover:text-gray-300 cursor-pointer'><Link to="inquiries" smooth={true} duration={500}>Inquiries</Link></li>
             <li className='hover:text-gray-300 cursor-pointer'><Link to="gallery" smooth={true} duration={500}>Gallery</Link></li>
 
+            {/* WPT Image Link */}
+            {/* <li>
+                    <a href="https://tracking.wptpartners.com/visit/?bta=35447&nci=5373" target="_blank" rel="noopener noreferrer">
+                        <img src={wpt} alt="WPT" className='icon' style={{ width: '20px', height: '20px' }} />
+                    </a>
+            </li> */}
+
             <li>
                 <a href="https://www.instagram.com/ubcpokerclub/?hl=en" target="_blank" rel="noopener noreferrer">
                     <FaInstagram className='icon' />
                 </a>
             </li>
+
+            
             
         </ul>
 
@@ -44,6 +54,12 @@ const Navbar = () => {
                 <li className='hover:text-gray-300 cursor-pointer border-b'><Link to="about" smooth={true} duration={500}>About</Link></li>
                 <li className='hover:text-gray-300 cursor-pointer border-b'><Link to="inquiries" smooth={true} duration={500}>Inquiries</Link></li>
                 <li className='hover:text-gray-300 cursor-pointer border-b'><Link to="gallery" smooth={true} duration={500}>Gallery</Link></li>
+
+                {/* <li>
+                    <a href="https://tracking.wptpartners.com/visit/?bta=35447&nci=5373" target="_blank" rel="noopener noreferrer">
+                        <img src={wpt} alt="WPT" className='icon border-b' style={{ width: '20px', height: '20px' }} />
+                    </a>
+                </li> */}
 
                 <li>
                     <a href="https://www.instagram.com/ubcpokerclub/?hl=en" target="_blank" rel="noopener noreferrer">

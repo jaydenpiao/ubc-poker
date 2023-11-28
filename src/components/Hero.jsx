@@ -10,7 +10,7 @@ const Hero = () => {
         <div className='absolute top-0 w-full h-full flex flex-col justify-center text-center text-white p-4'>
             <h1>UBC's only Poker Club</h1>
             <h2 className='py-4'>Come play!</h2>
-            <a href="https://forms.gle/9odP78ZTeD9KcaKU7" 
+            <a href="https://forms.gle/1dcFGTXf7fTUJLhc9" 
               target="_blank" 
               rel="noopener noreferrer" 
               className='p-3 border bg-gradient-to-r from-[var(--primary-dark)] to-[var(--primary-light)] text-white rounded-md inline-block mx-auto font-semibold hover:from-[var(--primary-light)] hover:to-[var(--primary-dark)] transition duration-300'
