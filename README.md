@@ -6,6 +6,5 @@
 - JavaScript
 - HTML
 - CSS
-- React.js
+- React
 - Tailwind CSS
-- EmailJS
