@@ -35,12 +35,12 @@ const Hero = () => {
           <div className='bg-black bg-opacity-50 p-4 rounded-lg'>
             <h1>UBC's only Poker Club</h1>
             <h2 className='py-4'>Come play!</h2>
-            <a href="https://docs.google.com/forms/d/e/1FAIpQLSe6DVQT1KKkPCOJJKWcvvQTkA8thO4KYOO74BA8wlWw6xBsEg/viewform?usp=sf_link" 
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSeqJpqznmcCG27DtuX13VmjiETV8R3z5lDK4nAfYA5zTHU2Vg/viewform" 
               target="_blank" 
               rel="noopener noreferrer" 
               className='p-3 border bg-gradient-to-r from-[var(--primary-dark)] to-[var(--primary-light)] text-white rounded-md inline-block mx-auto font-semibold hover:from-[var(--primary-light)] hover:to-[var(--primary-dark)] transition duration-300'
             >
-              March 24th Tournament
+              Apply to join our team!
             </a>
             <h2 className='pb-4 pt-12'>
               Download WPT Global using code "UBC"
